@@ -1,0 +1,59 @@
+body {
+    background-color: #041858;
+    color: white;
+  }
+  
+  .container21 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #041858;
+  }
+  
+  .person21 {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .person21 img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  @media (max-width: 800px) {
+    .container21 {
+      justify-content: center;
+    }
+  }
+  .social-icons21 img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+    border-radius: 50%;
+  }
+  .body21 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+  }
+  .rounded-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d8bf36;
+    color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-left: 50%; */
+  }
+  .container22 {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+  }
